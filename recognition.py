@@ -47,8 +47,8 @@ async def main() -> None:
     # )
 
     df = find(
-        "dataset2/img.jpg",
-        db_path="dataset2/",
+        "dataset/img.jpg",
+        db_path="dataset/",
         model_name="Facenet512",
         detector_backend="retinaface",
         enforce_detection=False,
